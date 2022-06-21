@@ -22,7 +22,7 @@
 " Author:   NanoTech <http://nanotech.nanotechcorp.net/>
 " Homepage: http://github.com/nanotech/jellybeans.vim
 " License:  MIT
-" Copyright (c) 2009-2010 NanoTech
+" Copyright (c) 2009-2020
 
 """ Initialize
 
@@ -158,7 +158,7 @@ if hlexists('CursorLineNr')
     HI CursorLineNr 240     233     NONE
 endif
 
-HI Visual           fg      96      -
+HI Visual           fg      237    -
 HI VisualNOS        fg      60      NONE
 HI IncSearch        -       -       inverse
 highlight clear Search " Explicitly clear the default Search style
@@ -181,7 +181,7 @@ else
     HI VertSplit    234     234     NONE
 endif
 
-HI Pmenu            fg      234     -
+HI Pmenu            fg      238     -
 HI PmenuSel         0       140     -
 HI PmenuSbar        -       234     -
 HI PmenuThumb       -       140     -
@@ -201,17 +201,19 @@ HI MatchParen       fg      17      bold
 
 HI Character        174     -       -
 HI Comment          244     -       -
-HI Constant         229     -       -
+"HI Constant         140     -       -
+HI Constant         15      -       -
 HI Error            -       88      -
 HI Identifier       182     -       NONE
-HI Ignore           238     -       -
-HI Number           180     -       -
-HI PreProc          150     -       -
+HI Ignore           219     -       -
+HI Number           212   -       -
+HI PreProc          110     -       -
 HI Special          174     -       -
 HI Statement        110     -       NONE
 HI Todo             184     bg      bold
-HI Type             146     -       NONE
+HI Type             222     -       NONE
 HI Underlined       39      -       underline
+HI String           216     -       NONE
 
 """ Diff / Vimdiff
 
