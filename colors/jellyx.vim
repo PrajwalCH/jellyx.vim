@@ -153,7 +153,7 @@ HI Cursor           -       214     -
 
 HI CursorLine       -       233     NONE
 HI CursorColumn     -       233     NONE
-HI ColorColumn      -       233     NONE
+HI ColorColumn      -       52      NONE
 if hlexists('CursorLineNr')
     HI CursorLineNr 240     233     NONE
 endif
